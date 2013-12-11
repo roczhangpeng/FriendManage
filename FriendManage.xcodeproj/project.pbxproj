@@ -1,0 +1,377 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		183EB1AE1856B486005ED57A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 183EB1AD1856B486005ED57A /* UIKit.framework */; };
+		183EB1B01856B486005ED57A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 183EB1AF1856B486005ED57A /* Foundation.framework */; };
+		183EB1B21856B486005ED57A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 183EB1B11856B486005ED57A /* CoreGraphics.framework */; };
+		183EB1B81856B486005ED57A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 183EB1B61856B486005ED57A /* InfoPlist.strings */; };
+		183EB1BA1856B486005ED57A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 183EB1B91856B486005ED57A /* main.m */; };
+		183EB1BE1856B486005ED57A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 183EB1BD1856B486005ED57A /* AppDelegate.m */; };
+		183EB1C01856B486005ED57A /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 183EB1BF1856B486005ED57A /* Default.png */; };
+		183EB1C21856B486005ED57A /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 183EB1C11856B486005ED57A /* Default@2x.png */; };
+		183EB1C41856B486005ED57A /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 183EB1C31856B486005ED57A /* Default-568h@2x.png */; };
+		183EB1C71856B486005ED57A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183EB1C61856B486005ED57A /* ViewController.m */; };
+		183EB1CA1856B486005ED57A /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 183EB1C81856B486005ED57A /* ViewController.xib */; };
+		183EB1DD1856B9B9005ED57A /* SqliteDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 183EB1D91856B9B9005ED57A /* SqliteDatabase.m */; };
+		183EB1DE1856B9B9005ED57A /* SqliteDataReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 183EB1DC1856B9B9005ED57A /* SqliteDataReader.m */; };
+		183EB1ED1856C229005ED57A /* MessageFriends.m in Sources */ = {isa = PBXBuildFile; fileRef = 183EB1EC1856C229005ED57A /* MessageFriends.m */; };
+		183EB1F01856C2A1005ED57A /* FriendDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 183EB1EF1856C2A1005ED57A /* FriendDatabase.m */; };
+		183EB1F71856C320005ED57A /* FriendDatabase+Friends.m in Sources */ = {isa = PBXBuildFile; fileRef = 183EB1F61856C320005ED57A /* FriendDatabase+Friends.m */; };
+		183EB2021856C509005ED57A /* FriendImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 183EB2011856C509005ED57A /* FriendImage.m */; };
+		183EB2051856C5A5005ED57A /* AddFriend.m in Sources */ = {isa = PBXBuildFile; fileRef = 183EB2041856C5A5005ED57A /* AddFriend.m */; };
+		183EB2091856C757005ED57A /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 183EB2071856C757005ED57A /* EditViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		183EB1A91856B486005ED57A /* FriendManage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FriendManage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		183EB1AD1856B486005ED57A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		183EB1AF1856B486005ED57A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		183EB1B11856B486005ED57A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		183EB1B51856B486005ED57A /* FriendManage-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FriendManage-Info.plist"; sourceTree = "<group>"; };
+		183EB1B71856B486005ED57A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		183EB1B91856B486005ED57A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		183EB1BB1856B486005ED57A /* FriendManage-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FriendManage-Prefix.pch"; sourceTree = "<group>"; };
+		183EB1BC1856B486005ED57A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = FriendManage/AppDelegate.h; sourceTree = "<group>"; };
+		183EB1BD1856B486005ED57A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = FriendManage/AppDelegate.m; sourceTree = "<group>"; };
+		183EB1BF1856B486005ED57A /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		183EB1C11856B486005ED57A /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		183EB1C31856B486005ED57A /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		183EB1C51856B486005ED57A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		183EB1C61856B486005ED57A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		183EB1C91856B486005ED57A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		183EB1D91856B9B9005ED57A /* SqliteDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SqliteDatabase.m; sourceTree = "<group>"; };
+		183EB1DA1856B9B9005ED57A /* SqliteDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqliteDatabase.h; sourceTree = "<group>"; };
+		183EB1DB1856B9B9005ED57A /* SqliteDataReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SqliteDataReader.h; sourceTree = "<group>"; };
+		183EB1DC1856B9B9005ED57A /* SqliteDataReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SqliteDataReader.m; sourceTree = "<group>"; };
+		183EB1EB1856C229005ED57A /* MessageFriends.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageFriends.h; sourceTree = "<group>"; };
+		183EB1EC1856C229005ED57A /* MessageFriends.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageFriends.m; sourceTree = "<group>"; };
+		183EB1EE1856C2A1005ED57A /* FriendDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendDatabase.h; sourceTree = "<group>"; };
+		183EB1EF1856C2A1005ED57A /* FriendDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendDatabase.m; sourceTree = "<group>"; };
+		183EB1F51856C320005ED57A /* FriendDatabase+Friends.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "FriendDatabase+Friends.h"; sourceTree = "<group>"; };
+		183EB1F61856C320005ED57A /* FriendDatabase+Friends.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "FriendDatabase+Friends.m"; sourceTree = "<group>"; };
+		183EB2001856C509005ED57A /* FriendImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendImage.h; sourceTree = "<group>"; };
+		183EB2011856C509005ED57A /* FriendImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendImage.m; sourceTree = "<group>"; };
+		183EB2031856C5A5005ED57A /* AddFriend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddFriend.h; sourceTree = "<group>"; };
+		183EB2041856C5A5005ED57A /* AddFriend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddFriend.m; sourceTree = "<group>"; };
+		183EB2061856C757005ED57A /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EditViewController.h; sourceTree = "<group>"; };
+		183EB2071856C757005ED57A /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EditViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		183EB1A61856B486005ED57A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183EB1AE1856B486005ED57A /* UIKit.framework in Frameworks */,
+				183EB1B01856B486005ED57A /* Foundation.framework in Frameworks */,
+				183EB1B21856B486005ED57A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		183EB19E1856B486005ED57A = {
+			isa = PBXGroup;
+			children = (
+				183EB1B31856B486005ED57A /* FriendManage */,
+				183EB1BC1856B486005ED57A /* AppDelegate.h */,
+				183EB1BD1856B486005ED57A /* AppDelegate.m */,
+				183EB1AC1856B486005ED57A /* Frameworks */,
+				183EB1AA1856B486005ED57A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		183EB1AA1856B486005ED57A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				183EB1A91856B486005ED57A /* FriendManage.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		183EB1AC1856B486005ED57A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				183EB1AD1856B486005ED57A /* UIKit.framework */,
+				183EB1AF1856B486005ED57A /* Foundation.framework */,
+				183EB1B11856B486005ED57A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		183EB1B31856B486005ED57A /* FriendManage */ = {
+			isa = PBXGroup;
+			children = (
+				183EB1D21856B500005ED57A /* View */,
+				183EB1D31856B506005ED57A /* Controller */,
+				183EB1D01856B4E4005ED57A /* Mode */,
+				183EB1DF1856B9C5005ED57A /* Utility */,
+				183EB1B41856B486005ED57A /* Supporting Files */,
+			);
+			path = FriendManage;
+			sourceTree = "<group>";
+		};
+		183EB1B41856B486005ED57A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				183EB1B51856B486005ED57A /* FriendManage-Info.plist */,
+				183EB1B61856B486005ED57A /* InfoPlist.strings */,
+				183EB1B91856B486005ED57A /* main.m */,
+				183EB1BB1856B486005ED57A /* FriendManage-Prefix.pch */,
+				183EB1BF1856B486005ED57A /* Default.png */,
+				183EB1C11856B486005ED57A /* Default@2x.png */,
+				183EB1C31856B486005ED57A /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		183EB1D01856B4E4005ED57A /* Mode */ = {
+			isa = PBXGroup;
+			children = (
+				183EB1EB1856C229005ED57A /* MessageFriends.h */,
+				183EB1EC1856C229005ED57A /* MessageFriends.m */,
+				183EB1EE1856C2A1005ED57A /* FriendDatabase.h */,
+				183EB1EF1856C2A1005ED57A /* FriendDatabase.m */,
+				183EB1F51856C320005ED57A /* FriendDatabase+Friends.h */,
+				183EB1F61856C320005ED57A /* FriendDatabase+Friends.m */,
+			);
+			name = Mode;
+			sourceTree = "<group>";
+		};
+		183EB1D21856B500005ED57A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				183EB1C81856B486005ED57A /* ViewController.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		183EB1D31856B506005ED57A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				183EB2001856C509005ED57A /* FriendImage.h */,
+				183EB2011856C509005ED57A /* FriendImage.m */,
+				183EB2031856C5A5005ED57A /* AddFriend.h */,
+				183EB2041856C5A5005ED57A /* AddFriend.m */,
+				183EB2061856C757005ED57A /* EditViewController.h */,
+				183EB2071856C757005ED57A /* EditViewController.m */,
+				183EB1C51856B486005ED57A /* ViewController.h */,
+				183EB1C61856B486005ED57A /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		183EB1DF1856B9C5005ED57A /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				183EB1D91856B9B9005ED57A /* SqliteDatabase.m */,
+				183EB1DA1856B9B9005ED57A /* SqliteDatabase.h */,
+				183EB1DB1856B9B9005ED57A /* SqliteDataReader.h */,
+				183EB1DC1856B9B9005ED57A /* SqliteDataReader.m */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		183EB1A81856B486005ED57A /* FriendManage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 183EB1CD1856B486005ED57A /* Build configuration list for PBXNativeTarget "FriendManage" */;
+			buildPhases = (
+				183EB1A51856B486005ED57A /* Sources */,
+				183EB1A61856B486005ED57A /* Frameworks */,
+				183EB1A71856B486005ED57A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FriendManage;
+			productName = FriendManage;
+			productReference = 183EB1A91856B486005ED57A /* FriendManage.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		183EB1A01856B486005ED57A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Job;
+			};
+			buildConfigurationList = 183EB1A31856B486005ED57A /* Build configuration list for PBXProject "FriendManage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 183EB19E1856B486005ED57A;
+			productRefGroup = 183EB1AA1856B486005ED57A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				183EB1A81856B486005ED57A /* FriendManage */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		183EB1A71856B486005ED57A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183EB1B81856B486005ED57A /* InfoPlist.strings in Resources */,
+				183EB1C01856B486005ED57A /* Default.png in Resources */,
+				183EB1C21856B486005ED57A /* Default@2x.png in Resources */,
+				183EB1C41856B486005ED57A /* Default-568h@2x.png in Resources */,
+				183EB1CA1856B486005ED57A /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		183EB1A51856B486005ED57A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				183EB1BA1856B486005ED57A /* main.m in Sources */,
+				183EB1BE1856B486005ED57A /* AppDelegate.m in Sources */,
+				183EB1C71856B486005ED57A /* ViewController.m in Sources */,
+				183EB1DD1856B9B9005ED57A /* SqliteDatabase.m in Sources */,
+				183EB1DE1856B9B9005ED57A /* SqliteDataReader.m in Sources */,
+				183EB1ED1856C229005ED57A /* MessageFriends.m in Sources */,
+				183EB1F01856C2A1005ED57A /* FriendDatabase.m in Sources */,
+				183EB1F71856C320005ED57A /* FriendDatabase+Friends.m in Sources */,
+				183EB2021856C509005ED57A /* FriendImage.m in Sources */,
+				183EB2051856C5A5005ED57A /* AddFriend.m in Sources */,
+				183EB2091856C757005ED57A /* EditViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		183EB1B61856B486005ED57A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				183EB1B71856B486005ED57A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		183EB1C81856B486005ED57A /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				183EB1C91856B486005ED57A /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		183EB1CB1856B486005ED57A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		183EB1CC1856B486005ED57A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		183EB1CE1856B486005ED57A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FriendManage/FriendManage-Prefix.pch";
+				INFOPLIST_FILE = "FriendManage/FriendManage-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		183EB1CF1856B486005ED57A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FriendManage/FriendManage-Prefix.pch";
+				INFOPLIST_FILE = "FriendManage/FriendManage-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		183EB1A31856B486005ED57A /* Build configuration list for PBXProject "FriendManage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183EB1CB1856B486005ED57A /* Debug */,
+				183EB1CC1856B486005ED57A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		183EB1CD1856B486005ED57A /* Build configuration list for PBXNativeTarget "FriendManage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				183EB1CE1856B486005ED57A /* Debug */,
+				183EB1CF1856B486005ED57A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 183EB1A01856B486005ED57A /* Project object */;
+}
